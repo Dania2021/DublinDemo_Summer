@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <!--Head Content-->
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+         <!--Title Content-->
+        <title>Blog</title>
+    </head>
+    <!--Body Content-->
+    <body>
+	<!--Navbar-->
+<div>
+        <nav>
+          <a href="../index.html" target="">Home</a>
+          <a href="../pages/about_me.html" target="_blank">Blog</a>
+          <a href="../pages/contact.html" target="_blank">Contact me</a>
+        </nav>  
+</div>
+
+	<div>
+	<h1 class="">Blog</h1>
+		<h2>Create a New Blog</h2>
+</div>
+		<!--Form-->
+		<form id="blogForm">
+		<div>
+		<label for="author">Author:</label><br>
+		<input type="text" name="aname" id="author">
+		</div>
+	
+		<div>	
+		<label for="title">Title:</label><br>
+		<input type="text" name="title" id="title"><br>
+		</div>
+		
+		<div>
+		<label for="entry">Entry:</label><br>
+		<textarea name="entry" rows="2" cols="50" id="content"></textarea><br>
+		</div>
+	
+		<input type="submit" value="Submit">
+
+		</form>
+		
+        <div id="displayBlog"></div>
+	
+        <!--Script-->
+        <script type="text/javascript" src="../scripts/script.js"></script>
+       
+    </body>
+</html>
